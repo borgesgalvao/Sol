@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+:root {
+  --color-verde-pastel-light: #EBF3ED;
+  --color-verde-pastel: #7A9F84;
+  --color-verde-pastel-dark: #3F5E48;
+  --color-ocre-pastel-light: #FBF4E8;
+  --color-ocre-pastel: #CCA056;
+  --color-ocre-pastel-dark: #8F6623;
+  --color-preto: #111111;
+  --color-branco: #FFFFFF;
+  --color-creme-suave: #F8F4E8;
+}
+
+body {
+  background-color: #F8F4E8;
+  color: #111111;
+}

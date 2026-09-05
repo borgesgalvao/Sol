@@ -1,0 +1,7 @@
+{
+  "name": "NutriVida - Consultoria Nutricional",
+  "description": "Site profissional para nutricionista clínica e esportiva com agendamento online, calculadora de IMC/TMB/Macros, planos de acompanhamento, receitas e depoimentos.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
