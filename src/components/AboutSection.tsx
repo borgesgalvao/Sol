@@ -11,7 +11,7 @@ import {
   Sparkles
 } from 'lucide-react';
 import { DOCTOR_INFO } from '../data/nutritionData';
-import doctorPhoto from '../assets/images/dra_emilly_juliana_1786724839191.jpg';
+import doctorPhoto from '../assets/images/regenerated_image_1788975535714.webp';
 
 interface AboutSectionProps {
   onOpenBooking: () => void;

@@ -12,7 +12,7 @@ import {
   Smartphone
 } from 'lucide-react';
 import { DOCTOR_INFO } from '../data/nutritionData';
-import doctorPhoto from '../assets/images/dra_emilly_juliana_1786724839191.jpg';
+import doctorPhoto from '../assets/images/dra_emilly_hero.jpg';
 
 interface HeroProps {
   onOpenBooking: () => void;
@@ -160,9 +160,9 @@ export const Hero: React.FC<HeroProps> = ({
                   src={doctorPhoto} 
                   alt="Dra. Emilly Juliana - Nutricionista" 
                   referrerPolicy="no-referrer"
-                  className="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-500"
+                  className="w-full h-full object-cover object-center hover:scale-105 transition-transform duration-500"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/10 via-20% to-transparent pointer-events-none"></div>
 
                 {/* Floating Overlay Badge: Active Patients */}
                 <div className="absolute top-4 left-4 bg-white/95 backdrop-blur-md px-3 py-1.5 rounded-xl shadow-md border border-stone-100 flex items-center gap-2">
